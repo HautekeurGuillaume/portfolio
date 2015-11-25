@@ -1,7 +1,136 @@
-/** top header layout **/
-#top {
-  background-color: rgb(73, 128, 210);
+/** Top banner layout **/
+#top_banner {
+  height: 100px;
+  background:rgb(48, 87, 163);
+  margin-top:-20px;
   text-align: center;
+  text-decoration: none;
+  font-family: purisa;
   color: white;
-  font-family: FreeMono;
+  text-shadow: 1px 1px 1px black;
+}
+
+/** header layout**/
+#navigation {
+  height: 50px;
+  background: rgb(63, 146, 222);
+  text-align: center;
+  font-family: purisa;
+  text-indent: 20px;
+  padding-right: 4%;
+  text-shadow: 1px 1px 1px black;
+}
+
+/** lists layout **/
+#list_top {
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+/** Body layout **/
+body {
+  margin: 0px;
+}
+
+p {
+  color: grey;
+}
+
+h1 {
+  color: grey;
+}
+/** links decoration:none **/
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+/** header links layout **/
+#back_to_index {
+  color:white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/** shows the page you are **/
+#back_to_index_index {
+  color: rgb(48, 70, 113);
+  text-shadow: 1px 1px 1px white;
+}
+/** profil picture **/
+#kappa {
+  width: 150px;
+  height: 150px;
+  margin-left: 45%;
+  margin-top: 8px;
+}
+
+/** bottom of the page layout **/
+#copyright {
+  color: grey;
+  font-size: 14px;
+  text-align: center;
+}
+#bottom_links {
+  margin-left: 45%;
+  margin-top: 13%;
+}
+
+#text {
+  margin-left: 10%;
+  text-align: left;
+}
+
+#grey_icon {
+  width: 20px;
+  height: 20px;
+}
+
+/** contact layout **/
+
+#phone {
+  width: 20px;
+  height: 20px;
+}
+
+#mail {
+  width: 30px;
+  height: 20px;
+  margin-left: -10px;
+}
+
+#twitter {
+  width: 20px;
+  height: 20px;
+}
+
+/** portfolio's image layout **/
+
+.tabble_pics {
+  width: 400px;
+  height: 300px;
+}
+
+
+table {
+  margin-left: 10%;
+  margin-top: 5%;
+  text-align: left;
+}
+
+td p {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 22px;
+  padding-left: 15px;
+  color: rgba(0, 0, 0, 0.36)
+}
+
+td {
+  border-collapse: collapse;
+  border-bottom: 2%;
 }
