@@ -129,7 +129,9 @@ td p {
   padding-top: 15px;
   padding-bottom: 22px;
   padding-left: 15px;
-  color: rgba(0, 0, 0, 0.36)
+  color: rgba(0, 0, 0, 0.36);
+  margin-top: -1.75%;
+  margin-bottom: 15%;
 }
 
 td {
