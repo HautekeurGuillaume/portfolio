@@ -22,7 +22,7 @@
 }
 
 /** lists layout **/
-#list_top {
+.list_top {
   list-style: none;
   display: inline-block;
   font-size: 20px;
@@ -31,7 +31,7 @@
 
 /** Body layout **/
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 p {
@@ -50,7 +50,7 @@ li {
   list-style-type: none;
 }
 /** header links layout **/
-#back_to_index {
+.back_to_index {
   color:white;
   text-shadow: 1px 1px 1px black;
 }
@@ -79,7 +79,7 @@ li {
   margin-top: 13%;
 }
 
-#text {
+.text {
   margin-left: 10%;
   text-align: left;
 }
@@ -119,6 +119,8 @@ table {
   margin-left: 10%;
   margin-top: 5%;
   text-align: left;
+  border-collapse: separate;
+  border-spacing: 100px 0;
 }
 
 td p {
@@ -133,4 +135,8 @@ td p {
 td {
   border-collapse: collapse;
   border-bottom: 2%;
+}
+
+.portfolio_quote {
+  font-style: italic;
 }
